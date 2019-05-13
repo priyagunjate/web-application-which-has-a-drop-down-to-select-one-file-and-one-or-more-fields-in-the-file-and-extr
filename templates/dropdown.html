@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>py+Flask+html</title>	
+
+    <link     href='http://fonts.googleapis.com/css?family=Sintony:400,700'     rel='stylesheet' type='text/css'>
+
+    <style type="text/css">    
+      body
+      {
+        background-color:#255;
+      }
+
+      h1
+      {
+        font-size:40px;
+        margin-top:0;
+        font-family:Arial, sans-serif;
+        text-shadow:2px 0 15px #292929;
+        letter-spacing:4px;
+        text-decoration:none;
+        color:#DDD;
+      }
+
+      #banner
+      {
+        width:900px;
+        height:600px;
+        text-align:center;
+        background-image:url(http://www.intacs.com/wp-content/uploads/2019/04/how-to-upload-files-in-asp-net-core-mvc-1.jpg);
+        background-repeat:no-repeat;
+        border-radius:5px;
+        margin:90px auto auto;
+        padding:80px 0;
+      }
+
+      .lead
+      {
+        background-color:rgba(0,0,0,0.6);
+        border-radius:3px;
+        box-shadow:rgba(255,255,255,0.2) 0 1px 3px;
+        font-family:Sintony, sans-serif;
+      }
+    </style>
+  </head> 
+
+  <body>
+    <div id="banner">
+      <h1>py+Flask+html</h1>
+      <p class="lead">Easy to access files to aid non-programmers  </p>
+    </div>
+    <div id="emailform">
+
+    </div>
+  </body>
+</html>
+<body>
+  <p>Select a file from the bunch of file.</p>
+  <form  action="/login" method="POST" enctype="multipart/form-data">
+  
+   
+      <select name="file_path">
+         <option value="file_path/ananya.csv">ananya.csv</option >
+          <option  value="file_path/nilu.csv">nilu.csv</option >
+          <option  value="file_path/priya.csv">priya.csv</option >
+          </select>
+ <p>To select one or more fields in the file  <p>
+            <select name="value">
+         
+          <option value="Country">Country</option>
+          <option value="Mobile No">Mobile No</option>
+           <option value="Habby">Habby</option>
+            <option value="info">info</option>
+          </select>
+
+
+    
+    <input type="submit" >
+  </form>
+<p>a web application which has a drop-down to select one file and one  fields in the file and extract the information.</p>
+  
+<br><br>
+  
+</body>
+</html>
