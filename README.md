@@ -1,0 +1,2 @@
+# web-application-which-has-a-drop-down-to-select-one-file-and-one-or-more-fields-in-the-file-and-extr
+I have a bunch of files in CSV format (with same set of fields) and to aid non-programmers I need to make it easy to access the same. Can you develop a web application which has a drop-down to select one file and one or more fields in the file and extract the information? Write both the front-end code and back-end code.
